@@ -1,69 +1,111 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessory Holder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Accessory Holder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <!-- *************meta links************** -->
-    <meta charset="utf-8">
-    <meta name="Content-Language" content="en">
-    <meta name="viewport" content="width=device-width">
-    <meta name="origin-when-cross-origin" content="referrer">
-    <meta name="kacewrites" content="assignment, philosophy, theology, term paper">
-    <title>kacewrites</title>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+          <center>
+            <div id="hero_words">
+              <h1>SYNTIQ HOLDERS</h1>
+              <p>Find the perfect holder for your accessories</p>
+              <button class="btn btn-primary">Explore Now</button>
+            </div>
+          </center>
+        </div>
+    </div>
 
-    <!-- ****************js script links************** -->
+    <br> <br>
+    <center><hr width = "50%"></center>
 
-
-    <!-- ***************css links******************* -->
-        <link rel="stylesheet" href="css_styles/styles.css">
-
-    <!-- ********************font awesome links*********** -->
-                        <!-- font awesome css -->
-
-
-    <!-- **********************bootstrap links**************** -->
-                              <!-- bootstrap css -->
-            <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
-            <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
-            <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
-            <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
-            <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-            <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-
-                                <!-- bootstrap js -->
-                      <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
-                      <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
-                      <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
-                      <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-
-
-  </head>
-
-  <body>
-
-            <div id="header1">
-                  <h2 class="header1heading"><img src="images/kacewriteslogo.png" alt="" height="50px" width="55px">KaceWrites</h2>
-                  <ul class="header1list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="philosophy.html">Philosophy</a></li>
-                    <li><a href="theology.html">Theology</a></li>
-                    <li><a href="others.html">Others</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                  </ul>
+    <!-- Product Section -->
+    <div class="container">
+        <h2>Featured Products</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/img1.jfif" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$19.99</p>
+                        <button id="buy" class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/img2.jfif" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <button id="buy2" class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/img3.jfif" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 3</h5>
+                        <p class="card-text">$39.99</p>
+                        <button id="buy3" class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/img4.jfif" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 4</h5>
+                        <p class="card-text">$39.99</p>
+                        <button id="buy4" class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
             </div>
 
-            <div id="header2">
-                  <div class="layer">
-                    <h4 class="header2heading">KaceWrites <br>Assignment Help Services </h4>
-                    <p class="header2paragraph">Your go-to resource for books, articles, and term papers for <br> students and researchers.</p>
-                  </div>
-            </div>
 
+        </div>
+    </div>
 
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <p>&copy; 2023 Accessory Holder</p>
+        </div>
+    </footer>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  </body>
-
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
 </html>

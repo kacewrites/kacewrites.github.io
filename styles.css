@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image: url('img/hero.jfif');
+    background-size: 100% 60vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    color: black;
+    font-weight: bold;
+
+}
+
+.hero {
+  background-color: grey;
+  background-blend-mode: screen;
+}
+
+#hero_words {
+  margin: 100px;
+}
+
+.card {
+    margin-bottom: 100px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+
+footer {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
